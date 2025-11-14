@@ -157,7 +157,7 @@ const HomeScreen = ({ navigation }) => {
       >
         <Surface style={styles.greeting}>
           <Text style={styles.greetingText}>
-            Hello {user?.displayName || 'User'}! 👋
+            Hello {user?.displayName || 'User'}!
           </Text>
           <Text style={styles.subtitle}>
             Manage your flashcards and stay organized
